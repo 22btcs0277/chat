@@ -13,7 +13,7 @@ app.use(cors());
 
 
 app.get("/",(req,res)=>{
-    res.send("HELL ITS WORKING");
+    res.send("HELL not , ITS WORKING");
 })
 
 const server=http.createServer(app);
